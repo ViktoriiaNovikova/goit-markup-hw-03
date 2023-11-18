@@ -1,0 +1,213 @@
+.logo-web,
+.logo-studio {
+text-decoration: none;
+}
+
+.menu {
+list-style-type: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+/* Body */
+
+body {
+font-family: Roboto, sans-serif;
+color: #434455;
+background-color: #FFFFFF;
+}
+
+/* Navigation*/
+
+.logo-web {
+ color: #4D5AE5;
+    font-size: 18px;
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+}
+
+.logo-studio {
+color: #2E2F42;
+    font-size: 18px;
+    font-family: Raleway,sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+}
+
+.menu-link:hover,
+.menu-link:focus {
+    color: #404BBF;
+}
+
+.menu-link {
+color: #2E2F42;
+    font-size: 16px;
+    font-family: Roboto,sans-serif;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.menu-list {
+color: #434455;
+    font-size: 16px;
+    font-family: Roboto,sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.menu-list:hover,
+.menu-list:focus {
+color: #404BBF
+}
+
+.text-normal {
+    font-style: normal;
+}
+
+/* Section 1 */
+
+.first {
+background-color: #2e2f42;
+}
+
+
+.top-main {
+background-color: #2E2F42;
+color: #FFFFFF;
+        font-family: Roboto;
+        font-size: 56px;
+        font-weight: 700;
+        line-height: 1.07;
+        letter-spacing: 0.02em;
+        text-align: center;
+}
+
+.top-button:hover,
+.top-button:focus {
+background-color: #404BBF;
+color: #FFFFFF;
+}
+
+.top-button {
+    background-color: #4D5AE5;
+    color: #FFFFFF;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    text-align: center;
+}
+
+
+/* Section 2 */
+
+.top-benefits {
+color: #2E2F42;
+    font-size: 20px;
+    font-family: Roboto;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.font-text {
+color: #434455;
+        font-family: Roboto,sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        text-align: left;
+}
+
+/* Section 3 */
+/* Section 4 */
+
+.top-team {
+    color: #2E2F42;
+        font-size: 36px;
+        font-family: Roboto;
+        font-weight: 700;
+        line-height: 1.11;
+        letter-spacing: 0.02em;
+        text-align: center;
+        text-transform: capitalize;
+}
+
+.back-team {
+    background-color: #FFFFFF;
+}
+
+.top-text {
+color: #2E2F42;
+    font-size: 20px;
+    font-family: Roboto;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.text {
+    color: #434455;
+        font-size: 16px;
+        font-family: Roboto;
+        font-weight: 400;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        text-align: center;
+        text-transform: capitalize;
+}
+
+.section-team {
+background-color:  #F4F4FD;
+}
+
+.card {
+background-color:  #FFFFFF;
+}
+
+/* Footer */
+
+.back {
+background-color: #2E2F42;
+}
+
+.text-back {
+color: #F4F4FD;
+    font-size: 16px;
+    font-family: Roboto;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+}
+
+.logo-web-back {
+color: #4D5AE5;
+    font-size: 18px;
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+}
+
+.logo-studio-back {
+color: #F4F4FD;
+    font-size: 18px;
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+}
