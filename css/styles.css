@@ -225,11 +225,6 @@ body {
 .container-second {
   display: flex;
   gap: 24px;
-  width: 1128px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 15px;
-  padding-right: 15px;
 }
 
 .top-benefits {
@@ -255,16 +250,13 @@ body {
 /* Section 3 */
 /* Section 4 */
 
-.container-fourth {
-  border: 1px solid #e7e9fc;
-}
-
 .name-man {
   padding: 32px 0;
 }
 
 .card-end {
   padding: 32px 16px;
+  border: 1px solid #e7e9fc;
 }
 
 .cection-fourth {
@@ -279,7 +271,6 @@ body {
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
-  border: 1px solid #e7e9fc;
 }
 
 .border-card {
