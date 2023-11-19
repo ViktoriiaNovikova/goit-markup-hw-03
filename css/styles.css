@@ -70,10 +70,13 @@ body {
 
 /* Navigation*/
 
+.page {
+  border-bottom: 1px solid #e7e9fc;
+}
+
 .page-nav {
   display: flex;
   align-items: center;
-  border-bottom: 1px solid #e7e9fc;
 }
 
 .page-link {
@@ -243,6 +246,11 @@ body {
 
 /* Section 3 */
 /* Section 4 */
+
+.cection-fourth {
+  display: block;
+}
+
 .section-card {
   width: 1158px;
   margin-left: auto;
@@ -271,6 +279,10 @@ body {
   list-style-type: none;
   margin-top: 0;
   margin-bottom: 0;
+
+  flex-direction: row;
+  align-items: flex-start;
+  padding-left: 0;
 }
 
 .team {
