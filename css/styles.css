@@ -209,6 +209,10 @@ body {
 
 /* Section 2 */
 
+.list-second {
+  width: calc((100% - 72px) / 4);
+}
+
 .section-two {
   padding: 120px 0;
 }
@@ -220,7 +224,7 @@ body {
 
 .container-second {
   display: flex;
-  column-gap: 24px;
+  gap: 24px;
   width: 1128px;
   margin-left: auto;
   margin-right: auto;
@@ -235,7 +239,7 @@ body {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  padding-bottom: 8px;
+  margin-bottom: 8px;
 }
 
 .font-text {
@@ -250,6 +254,10 @@ body {
 
 /* Section 3 */
 /* Section 4 */
+
+.container-fourth {
+  border: 1px solid #e7e9fc;
+}
 
 .name-man {
   padding: 32px 0;
