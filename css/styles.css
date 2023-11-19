@@ -250,6 +250,10 @@ body {
 /* Section 3 */
 /* Section 4 */
 
+.container-fourth {
+  border: 1px solid #e7e9fc;
+}
+
 .name-man {
   padding: 32px 0;
 }
