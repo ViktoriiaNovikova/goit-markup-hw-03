@@ -163,12 +163,12 @@ body {
   line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
-  width: 496px;
+  max-width: 496px;
   height: 120px;
   margin-left: auto;
   margin-right: auto;
   padding-top: 188px;
-  padding-bottom: 292px;
+  padding-bottom: 188px;
 }
 
 .top-button:hover,
@@ -185,6 +185,14 @@ body {
   line-height: 1.5;
   letter-spacing: 0.04em;
   text-align: center;
+  border-radius: 4px;
+  padding-top: 48px;
+  margin: 0 auto;
+  display: block;
+  padding: 16px 32px;
+  min-width: 169px;
+  height: 56px;
+  border: none;
 }
 
 /* Section 2 */
@@ -211,6 +219,7 @@ body {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  padding-bottom: 8px;
 }
 
 .font-text {
@@ -225,10 +234,41 @@ body {
 
 /* Section 3 */
 /* Section 4 */
+.section-card {
+  width: 1158px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.border-card {
+  border: 1px #e7e9fc solid;
+  align-items: flex-start;
+  flex-direction: row;
+  width: calc((100% - 48px) / 3);
+  padding-bottom: 0px;
+  flex-shrink: 0;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.menu-card {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+  padding: 72px 0 120px 0;
+  list-style-type: none;
+  margin-top: 0;
+  margin-bottom: 0;
+}
 
 .team {
   display: flex;
   column-gap: 24px;
+  width: calc((100% - 72px) / 4);
+  text-align: center;
 }
 
 .top-team {
@@ -254,7 +294,8 @@ body {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  text-align: center;
+  align-items: flex-start;
+  padding: 32px 0 8px 16px;
 }
 
 .text {
@@ -264,8 +305,9 @@ body {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  text-align: center;
+  align-items: flex-start;
   text-transform: capitalize;
+  padding: 0 0 32px 16px;
 }
 
 .section-team {
@@ -284,6 +326,7 @@ body {
   height: 312px;
   margin-left: auto;
   margin-right: auto;
+  padding: 100px 0 0 156px;
 }
 
 .text-back {
@@ -306,6 +349,8 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-decoration: none;
+  margin-bottom: 16px;
+  display: inline-block;
 }
 
 .logo-studio-back {
