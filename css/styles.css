@@ -278,6 +278,11 @@ body {
   flex-shrink: 0;
   align-items: flex-start;
   flex-direction: column;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+  width: ;
 }
 
 .menu-card {
