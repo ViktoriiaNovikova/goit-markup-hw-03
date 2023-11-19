@@ -250,22 +250,18 @@ body {
 /* Section 3 */
 /* Section 4 */
 
-.container-fourth {
-  border: 1px solid #e7e9fc;
-}
-
 .name-man {
   padding: 32px 0;
 }
 
 .card-end {
   padding: 32px 16px;
+  border: 1px solid #e7e9fc;
 }
 
 .cection-fourth {
   display: block;
   padding: 120px 0 120px 0;
-  border: 1px solid #e7e9fc;
 }
 
 .section-card {
@@ -288,7 +284,6 @@ body {
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
-  border: 1px #e7e9fc solid;
 }
 
 .menu-card {
