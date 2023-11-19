@@ -5,6 +5,7 @@
 
 .menu {
   list-style-type: none;
+  gap: 40px;
 }
 
 button {
@@ -52,7 +53,7 @@ img {
 }
 
 .container {
-  width: 1128px;
+  width: 1158px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 15px;
@@ -72,6 +73,7 @@ body {
 .page-nav {
   display: flex;
   align-items: center;
+  border-bottom: 1px solid #e7e9fc;
 }
 
 .page-link {
@@ -83,6 +85,7 @@ body {
   display: flex;
   column-gap: 40px;
   justify-content: space-between;
+  gap: 40px;
 }
 
 .logo-web {
@@ -93,6 +96,7 @@ body {
   text-transform: uppercase;
   line-height: 1.17;
   letter-spacing: 0.03em;
+  margin-right: 76px;
 }
 
 .logo-studio {
@@ -150,8 +154,11 @@ body {
   background-color: #2e2f42;
   width: 1440px;
   height: 600px;
+  padding: 188px 0;
   margin-left: auto;
   margin-left: auto;
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
 
 .top-main {
@@ -167,8 +174,9 @@ body {
   height: 120px;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 188px;
-  padding-bottom: 188px;
+
+  padding-bottom: 48px;
+  max-width: 496px;
 }
 
 .top-button:hover,
@@ -188,6 +196,7 @@ body {
   border-radius: 4px;
   padding-top: 48px;
   margin: 0 auto;
+  margin-top: 48px;
   display: block;
   padding: 16px 32px;
   min-width: 169px;
@@ -266,8 +275,8 @@ body {
 
 .team {
   display: flex;
-  column-gap: 24px;
-  width: calc((100% - 72px) / 4);
+  gap: 24px;
+
   text-align: center;
 }
 
@@ -281,10 +290,12 @@ body {
   text-align: center;
   text-transform: capitalize;
   padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 
 .back-team {
   background-color: #ffffff;
+  width: calc((100% - 72px) / 4);
 }
 
 .top-text {
@@ -312,6 +323,7 @@ body {
 
 .section-team {
   background-color: #f4f4fd;
+  padding: 120px 0;
 }
 
 .card {
@@ -326,7 +338,8 @@ body {
   height: 312px;
   margin-left: auto;
   margin-right: auto;
-  padding: 100px 0 0 156px;
+
+  padding: 100px 0;
 }
 
 .text-back {
@@ -336,8 +349,8 @@ body {
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0.32px;
-  width: 264px;
   height: 72px;
+  max-width: 264px;
 }
 
 .logo-web-back {
@@ -351,6 +364,7 @@ body {
   text-decoration: none;
   margin-bottom: 16px;
   display: inline-block;
+  margin-bottom: 16px;
 }
 
 .logo-studio-back {
@@ -362,4 +376,5 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-decoration: none;
+  display: inline-block;
 }
